@@ -9,7 +9,6 @@ A simple Discord bot that performs web scraping on a surfing website and integra
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 
 ## Features
 
