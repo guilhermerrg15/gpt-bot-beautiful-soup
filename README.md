@@ -1,35 +1,44 @@
-# Discord Bot with Web Scraping and GPT-3 Integration
+# Bot do Discord com Web Scraping e Integração com GPT-3
 
-A simple Discord bot that performs web scraping on a surfing website and integrates with OpenAI's GPT-3 for natural language processing.
+Um simples bot do Discord que realiza web scraping em um site de surfe e integra-se com o GPT-3 da OpenAI para processamento de linguagem natural.
 
-## Table of Contents
+## Funcionalidades
 
-- [Introduction](#discord-bot-with-web-scraping-and-gpt-3-integration)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- Responde a cumprimentos e interage com os usuários.
+- Funcionalidade de web scraping para recuperar informações de um site de surfe.
+- Utiliza o GPT-3 para processamento de linguagem natural.
 
-## Features
+## Começando
 
-- Responds to greetings and interacts with users.
-- Web scraping functionality to retrieve information from a surfing website.
-- Utilizes GPT-3 for natural language processing.
+Instruções sobre como configurar e executar o bot do Discord localmente.
 
-## Getting Started
+### Pré-requisitos
 
-Instructions on how to set up and run the Discord bot locally.
+- Python instalado
+- Token da API do Discord
+- Chave da API da OpenAI
 
-### Prerequisites
+### Instalação
 
-- Python installed
-- Discord API token
-- OpenAI API key
+1. Clone o repositório:
 
-### Installation
+    ```bash
+    git clone https://github.com/guilhermerrg15/gpt-bot-beautiful-soup.git
+    cd gpt-bot-beautiful-soup
+    ```
 
-1. Clone the repository:
+2. Instale as dependências necessárias:
 
-```bash
-git clone https://github.com/guilhermerrg15/gpt-bot-beautiful-soup.git
-cd gpt-bot-beautiful-soup
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Configure as variáveis de ambiente com o seu token da API do Discord e a chave da API da OpenAI.
+
+4. Execute o bot:
+
+    ```bash
+    python bot.py
+    ```
+
+5. Abra seu cliente do Discord e interaja com o bot no servidor configurado.
